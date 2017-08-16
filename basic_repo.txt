@@ -1,0 +1,15 @@
+cd desktop
+mkdir basic_repo
+cd basic_repo
+git init
+touch readme.txt
+git status
+git add .
+git commit -m "Adding new files, added comments to readme.txt"
+git remote add origin https://github.com/vd1972/basic_repo.git
+git push -u origin master
+git status
+git add .
+git commit -m "Adding new ppt files, added comments to readme.txt"
+git push -u origin master
+
